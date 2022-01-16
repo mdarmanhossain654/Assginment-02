@@ -258,7 +258,7 @@ body{
     padding: 10px;
     background-color: rgba(255, 255, 255, .2)
     border-radius: 50px;
-   margin: 5px 10px;
+    margin: 5px 10px;
 }
 
 
@@ -331,11 +331,25 @@ body{
         grid-template-columns:  1fr;
         justify-content: center;
         align-items: center;
+        padding-left: 40%
     }
     .banner{
         grid-template-columns: 1fr;
     } 
     .brand{
         display: none;
+    }
+    .main-footer{
+        width: 100%;
+        margin: 100px;
+    }
+    .container{
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+    .extra{
+        width: 100%;
+        margin: 100px;
     }
 }
